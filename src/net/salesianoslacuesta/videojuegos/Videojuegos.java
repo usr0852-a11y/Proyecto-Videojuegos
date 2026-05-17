@@ -51,4 +51,10 @@ public class Videojuegos {
             this.puntuacion = 1;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + nombre + ", Género" + genero + ", Plataforma" + plataforma + ", Puntuacion: " + puntuacion;
+    }
+
 }
