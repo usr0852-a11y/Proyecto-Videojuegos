@@ -15,7 +15,7 @@ public class Gestor {
 
     // Getters
 
-    public ArrayList<Videojuego> getListaVideojuegos() {
+    public ArrayList<Videojuegos> getListaVideojuegos() {
         return listaVideojuegos;
     }
     public int getTotalAñadidos() {
@@ -23,7 +23,7 @@ public class Gestor {
     }
 
     // Setters
-    public void setListaVideojuegos(ArrayList<Videojuego> listaVideojuegos) {
+    public void setListaVideojuegos(ArrayList<Videojuegos> listaVideojuegos) {
         this.listaVideojuegos = listaVideojuegos;
     }
 
