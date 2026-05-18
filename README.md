@@ -1,18 +1,39 @@
-## Getting Started
+El programa permite:
+- Crear videojuegos
+- Editarlos
+- Mostrarlos ordenados por puntuación
+- Eliminarlos
+- Salir de la aplicación mediante un menú gráfico
+Todo ello utilizando Java Swing para evitar el uso de consola, ya que el cliente no está familiarizado con ella.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Cada videojuego contiene:
+- Título
+- Género
+- Plataforma
+- Año de lanzamiento
+- Puntuación (1 a 5)
+Los videojuegos se almacenan en una lista inteligente (ArrayList) y no se guardan entre ejecuciones.
 
-## Folder Structure
+ CRUD completo
 
-The workspace contains two folders by default, where:
+- Añadir videojuego mediante paneles Swing
+- Editar videojuego seleccionado
+- Mostrar videojuegos ordenados por puntuación descendente
+- Eliminar videojuego
+- Salir del programa (única forma válida de terminar)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Validaciones
+Se utilizan clases con métodos estáticos para:
+- Validar entradas
+- Convertir tipos
+- Evitar errores del usuario
+- Mantener el código modular y limpio
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Control de excepciones
+El programa controla todas las excepciones posibles para evitar cierres inesperados.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+ Estructura del proyecto:
+- Paquetes organizados coherentemente
+- Clases comentadas al inicio explicando su finalidad
+- Uso de ramas para cada característica
+- Commits descriptivos siguiendo las pautas de clase
